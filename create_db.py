@@ -1,5 +1,5 @@
 import sqlite3
-
+#create a sqlite3 database
 conn = sqlite3.connect('database.db')
 print "Opened database successfully"
 

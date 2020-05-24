@@ -1,5 +1,5 @@
 from flask import Flask, render_template, request
-import pysqlite3 as sql
+import sqlite3 as sql
 app = Flask(__name__)
 
 @app.route('/')
@@ -49,6 +49,3 @@ def list():
 if __name__ == '__main__':
    app.run(debug = True)
 
-def kill2():
-    en = "e"
-    return en
